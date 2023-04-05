@@ -18,6 +18,7 @@
 
 </ol>
 
+
 ## Step 2: Remote access your account
 <ol>
   <li> Look up your CSE 15L Account on the [UCSD Educational Technology Site](https://sdacs.ucsd.edu/~icc/index.php). Follow the on screen instructions to reset your password. 
@@ -54,11 +55,16 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
   ```
-
-  <span style="color:red">You have successfully connected to a computer in the CSE basement! </span>.
-  
-  <li>
-  <li></li>
-
-
+  <span style="color:red">You have successfully connected to a computer in the CSE basement! </span>
+  <img src="" alt="Sample logged in">
 </ol>
+
+
+## Step 3: Try Some Commands
+Once you are connected to your remote server, here are some commands you could try: 
+```cd~```
+```cd```
+```ls -lat```
+```ls -a```
+
+To log out of the remote server in your terminal, either ```Ctrl-D``` or type in the command ```exit```. 
