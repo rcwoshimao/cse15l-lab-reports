@@ -62,9 +62,9 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
 
 ## Step 3: Try Some Commands
 Once you are connected to your remote server, here are some commands you could try: 
-```cd~```
-```cd```
-```ls -lat```
-```ls -a```
+```cd~``` \
+```cd```  \
+```ls -lat``` \
+```ls -a``` \
 
 To log out of the remote server in your terminal, either ```Ctrl-D``` or type in the command ```exit```. 
