@@ -21,6 +21,7 @@
 ## Step 2: Remote access your account
 <ol>
   <li> Look up your CSE 15L Account on the [UCSD Educational Technology Site](https://sdacs.ucsd.edu/~icc/index.php). Follow the on screen instructions to reset your password. 
+  
 > **Important Note: Remember you are resetting the password for your course specific account, NOT your active directory!**
   </li> Now we use VScode/terminal to connect to a remote computer. 
   
