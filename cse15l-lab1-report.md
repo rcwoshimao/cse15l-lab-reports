@@ -12,7 +12,7 @@
 <img src = "" alt = "VS Code website">
 </li>
   
-[visual studio code website](https://code.visualstudio.com)
+
 
 <li> In ordeer to remotely access your account, you need to use terminal in VS Code. On VS code's navigation bar, Go to terminal > new terminal. A new terminal should be opened below. 
 </li>
