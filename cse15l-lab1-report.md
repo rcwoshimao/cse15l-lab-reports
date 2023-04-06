@@ -9,15 +9,15 @@
 ## Step 1: Using terminal within VS Code
 <ol>
 <li> To download VS Code, go to the <a href="https://code.visualstudio.com">Visual Studio Code website</a>. Follow the instructions and download it to your device, according to your operating system.
-<img src = "" alt = "VS Code website">
+<img src = "https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/VS%20code%20website.png" alt = "VS Code website">
 </li>
   
 
 
 <li> In ordeer to remotely access your account, you need to use terminal in VS Code. On VS code's navigation bar, Go to terminal > new terminal. A new terminal should be opened below. 
 </li>
-<img src = "" alt = "Nav bar">
-<img src = "" alt = "New terminal opened">
+<img src = "https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/Nav%20bar.png" alt = "Nav bar">
+<img src = "https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/New%20terminal%20opened.png" alt = "New terminal opened">
 </ol>
 
 
@@ -60,7 +60,7 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
 </li>
   
   ✅You have now successfully connected to a computer in the CSE basement!
-  <img src="" alt="Sample logged in">
+  <img src="https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/Sample%20logged%20in.png" alt="Sample logged in">
   
 </ol>
 
@@ -71,6 +71,6 @@ Once you are connected to your remote server, here are some commands you could t
 ```cd```  \
 ```ls -lat``` \
 ```ls -a``` 
- <img src="" alt="Sample commands">
+ <img src="https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/Sample%20commands.png" alt="Sample commands">
 
 To log out of the remote server in your terminal, either ```Ctrl-D``` or type in the command ```exit```. 
