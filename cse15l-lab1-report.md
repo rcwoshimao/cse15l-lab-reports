@@ -3,9 +3,9 @@
 
 ##Contents 
 1. [Required Software](#Required-Software)
-2. [Using terminal within VS Code](#Using-terminal-within-VS-Code)
-3. [Remote access your account](#Remote-access-your-account)
-4. [Try some commands!](#Try-Some-Commands)
+2. [Using terminal within VS Code](#step-1-using-terminal-within-vs-code)
+3. [Remote access your account](#step-2-Remote-access-your-account)
+4. [Try some commands!](#step-3-Try-Some-Commands)
 
 ##  Required Software 
 <ul>
