@@ -20,7 +20,7 @@
   
 
 
-<li> In ordeer to remotely access your account, you need to use terminal in VS Code. On VS code's navigation bar, Go to terminal > new terminal. A new terminal should be opened below. 
+<li> In order to remotely access your account, you need to use terminal in VS Code. On VS code's navigation bar, Go to terminal > new terminal. A new terminal should be opened below. 
 </li>
 <img src = "https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/Nav%20bar.png" alt = "Nav bar">
 <img src = "https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/New%20terminal%20opened.png" alt = "New terminal opened">
