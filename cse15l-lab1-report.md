@@ -15,6 +15,7 @@
 ## Step 1: Using terminal within VS Code
 <ol>
 <li> To download VS Code, go to the <a href="https://code.visualstudio.com">Visual Studio Code website</a>. Follow the instructions and download it to your device, according to your operating system.
+  ![Image](Nav bar.png)
 <img src = "https://github.com/rcwoshimao/cse15l-lab-reports/blob/main/VS%20code%20website.png" alt = "VS Code website">
 </li>
   
