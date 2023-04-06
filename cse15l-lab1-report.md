@@ -30,8 +30,9 @@
   
 >  If you are on a windows device, you need to [install git for Windows](https://gitforwindows.org/). Then, use [this post](https://stackoverflow.com/a/50527994) to set your default terminal to use the installed ```git bash``` in vs code. 
 <li>
-  In the terminal you opened in VS Code, Type in the following line, but **replace the letters "zz" with the letters in your course-specific account. 
-  ```$ ssh cs15lsp23zz@ieng6.ucsd.edu```
+  In the terminal you opened in VS Code, Type in the following line, but **replace the letters "zz" with the letters in your course-specific account:
+  
+  <code>$ ssh cs15lsp23zz@ieng6.ucsd.edu</code>
   
 If this is your first time logging in, you will see a message like this: 
   ```
