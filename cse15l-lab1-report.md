@@ -8,7 +8,7 @@
 
 ## Step 1: Using terminal within VS Code
 <ol>
-<li> To download VS Code, go to the [Visual Studio Code Website](https://code.visualstudio.com/). Follow the instructions and download it to your device, according to your operating system. 
+<li> To download VS Code, go to the [Visual Studio Code Website](https://code.visualstudio.com) . Follow the instructions and download it to your device, according to your operating system. 
 <img src = "" alt = "VS Code website">
 </li>
 
@@ -16,7 +16,6 @@
 </li>
 <img src = "" alt = "Nav bar">
 <img src = "" alt = "New terminal opened">
-
 </ol>
 
 
