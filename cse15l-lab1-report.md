@@ -65,6 +65,6 @@ Once you are connected to your remote server, here are some commands you could t
 ```cd~``` \
 ```cd```  \
 ```ls -lat``` \
-```ls -a``` \
+```ls -a``` 
 
 To log out of the remote server in your terminal, either ```Ctrl-D``` or type in the command ```exit```. 
