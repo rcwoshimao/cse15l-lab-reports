@@ -2,10 +2,10 @@
 > Hello fellow CSE 15L Students! Welcome to this course. In this tutorial, we will touch on how to log into a course-specific account on ieng6.
 
 ##Contents 
-1. [Required Software](#Required-Software)
-2. [Using terminal within VS Code](#step-1-using-terminal-within-vs-code)
-3. [Remote access your account](#step-2-Remote-access-your-account)
-4. [Try some commands!](#step-3-Try-Some-Commands)
+* [Required Software](#Required-Software)
+* [Step 1: Using terminal within VS Code](#step-1-using-terminal-within-vs-code)
+* [Step 2: Remote access your account](#step-2-Remote-access-your-account)
+* [Step 3: Try some commands!](#step-3-Try-Some-Commands)
 
 ##  Required Software 
 <ul>
