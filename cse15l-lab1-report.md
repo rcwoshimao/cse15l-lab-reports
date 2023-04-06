@@ -8,7 +8,9 @@
 
 ## Step 1: Using terminal within VS Code
 <ol>
-<li> To download VS Code, go to the [visual studio code website](https://code.visualstudio.com) [this post](https://stackoverflow.com/a/50527994). Follow the instructions and download it to your device, according to your operating system. 
+<li> To download VS Code, go to the [visual studio code website](https://code.visualstudio.com). Follow the instructions and download it to your device, according to your operating system. 
+  
+  [testLink](https://google.com)
 <img src = "" alt = "VS Code website">
 </li>
 
