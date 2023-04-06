@@ -1,7 +1,7 @@
 # CSE 15L lab report 1 (Week 1)
 > Hello fellow CSE 15L Students! Welcome to this course. In this tutorial, we will touch on how to log into a course-specific account on ieng6.
 
-##Contents 
+## Contents 
 * [Required Software](#Required-Software)
 * [Step 1: Using terminal within VS Code](#step-1-using-terminal-within-vs-code)
 * [Step 2: Remote access your account](#step-2-Remote-access-your-account)
