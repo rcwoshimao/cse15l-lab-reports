@@ -42,14 +42,16 @@
   <code>$ ssh cs15lsp23zz@ieng6.ucsd.edu</code>
   
 If this is your first time logging in, you will see a message like this: 
-  ```
+  <code>
   ⤇ ssh cs15lsp23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
-  ```
-  Type ```yes```, press enter, and give your password. Once you are logged in, you should see something similar to the below: 
-  ```
+  </code>
+  
+  Type <code>yes</code>, press enter, and give your password. Once you are logged in, you should see something similar to the below: 
+  
+  <code>
   # Now on remote server
 Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
 quota: No filesystem specified.
@@ -64,7 +66,7 @@ ieng6-202   23:25:01   1  0.09,  0.15,  0.11
 ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
-  ```
+  </code>
 </li>
   
   ✅You have now successfully connected to a computer in the CSE basement!
