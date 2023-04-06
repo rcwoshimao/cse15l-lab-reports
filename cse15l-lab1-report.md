@@ -12,7 +12,8 @@
 <img src = "" alt = "VS Code website">
 </li>
 
-<li> In ordeer to remotely access your account, you need to use terminal in VS Code. On VS code's navigation bar, Go to terminal > new terminal. A new terminal should be opened below. </li>
+<li> In ordeer to remotely access your account, you need to use terminal in VS Code. On VS code's navigation bar, Go to terminal > new terminal. A new terminal should be opened below. 
+</li>
 <img src = "" alt = "Nav bar">
 <img src = "" alt = "New terminal opened">
 
@@ -27,7 +28,7 @@
   </li> Now we use VScode/terminal to connect to a remote computer. 
   
 >  If you are on a windows device, you need to [install git for Windows](https://gitforwindows.org/). Then, use [this post](https://stackoverflow.com/a/50527994) to set your default terminal to use the installed ```git bash``` in vs code. 
-
+<li>
   In the terminal you opened in VS Code, Type in the following line, but **replace the letters "zz" with the letters in your course-specific account. 
   ```$ ssh cs15lsp23zz@ieng6.ucsd.edu```
   
@@ -55,6 +56,7 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
   ```
+</li>
   ✅You have now successfully connected to a computer in the CSE basement!
   <img src="" alt="Sample logged in">
 </ol>
