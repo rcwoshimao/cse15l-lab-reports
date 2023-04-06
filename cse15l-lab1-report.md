@@ -8,7 +8,7 @@
 
 ## Step 1: Using terminal within VS Code
 <ol>
-<li> To download VS Code, go to the [visual studio code website](https://code.visualstudio.com). Follow the instructions and download it to your device, according to your operating system.
+<li> To download VS Code, go to the <a href="https://code.visualstudio.com">Visual Studio Code website</a>. Follow the instructions and download it to your device, according to your operating system.
 <img src = "" alt = "VS Code website">
 </li>
   
@@ -23,7 +23,7 @@
 
 ## Step 2: Remote access your account
 <ol>
-  <li> Look up your CSE 15L Account on the [ucsd Educational Technology Site](https://sdacs.ucsd.edu/~icc/index.php). Follow the on screen instructions to reset your password. 
+  <li> Look up your CSE 15L Account on the <a href="https://sdacs.ucsd.edu/~icc/index.php">UCSD Educational Technology Site</a>. Follow the on screen instructions to reset your password. 
   
 > **Important Note: Remember you are resetting the password for your course specific account, NOT your active directory!**
   </li> Now we use VScode/terminal to connect to a remote computer. 
@@ -58,8 +58,10 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
   ```
 </li>
+  
   ✅You have now successfully connected to a computer in the CSE basement!
   <img src="" alt="Sample logged in">
+  
 </ol>
 
 
