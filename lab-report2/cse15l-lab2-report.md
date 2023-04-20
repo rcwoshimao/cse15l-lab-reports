@@ -64,18 +64,20 @@ The other method being called is **main** in StringServer class, taking in a Str
 
 <img width="991" alt="Screenshot 2023-04-19 at 19 03 30" src="https://user-images.githubusercontent.com/108894739/233238899-9772256e-ad74-4f69-ace5-41a0f7a55ab4.png">
 
+### Output 2
 <img width="674" alt="Screenshot 2023-04-19 at 18 46 49" src="https://user-images.githubusercontent.com/108894739/233237124-886f0319-549e-4cf9-a0d9-5600e2e0970c.png">
+In this example, the **methods** being called includes the **handleRequest** in Handler class, taking in an URI ```http://localhost:4000/add-message?s=My%20name%20is%20Rebecca```. 
 
+At this time,
 
-```http://localhost:4000/add-message?s=My%20name%20is%20Rebecca```
+the value of ```String s``` =  ```hi\n George\n Lorem%20ipsum%20dolor%20sit%20amet``` , since we already have some prexisting inputs when testing; 
 
-Methods called: 
-Arguments of methods & value of fields: 
-Change of values of the fields. 
+the value of ```String[] parameters``` = ``` {"http://localhost:4000/add-message?s", "My%20name%20is%20Rebecca"}``` ; 
 
+the value of ```parameters[1]``` = ```"My%20name%20is%20Rebecca"``` ;
 
-
-we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
+The other method being called is **main** in StringServer class, taking in a String array ```args[]```, with the argument of port number. In this case, localhost 4000. 
+The values of the URL, ```String s``` and ```String[] parameters``` are different from output 1, since it is a different command asking to add a completely different string to the display. 
 
 ## Part 2
 
