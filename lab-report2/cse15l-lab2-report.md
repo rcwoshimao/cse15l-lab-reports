@@ -1,9 +1,9 @@
 # CSE 15L lab report 2 (Week 3)
 
 ## Contents 
-* [Step 1: Using terminal within VS Code](#part-1)
-* [Step 2: Remote access your account](#part-2)
-* [Step 3: Try some commands!](#part-3)
+* [Part 1: StringServer](#part-1)
+* [Part 2: Buggy Code](#part-2)
+* [Step 3: Reflection](#part-3)
 
 
 ## Part 1
