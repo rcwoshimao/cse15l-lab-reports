@@ -129,11 +129,12 @@ static int[] reversed(int[] arr) {
 Now the test runs perfectly. 
 <img width="1145" alt="Screenshot 2023-04-19 at 19 26 00" src="https://user-images.githubusercontent.com/108894739/233241741-083159d9-cbc0-4b03-b874-4cefe9a8222e.png">
 
-###Explanation
+### Explanation
 The above code is buggt in several ways, including: 
 + The method was returning the original array ```arr``` , instead of the supposed ```newArray``` created inside the method. 
 + The method was modifying the original array ```arr[i]``` in the for loop, instead of the (correct) other way around, setting the new array's element values equal to the existing one! 
 
 ## Part 3 
-
+### Reflection on what I have learned
+During week 2 and week 3, I learned how to create a web server, modify its displayed / stored content by different queries; I also learned more about how to use github to push, pull, fork, and commit files. 
 
