@@ -79,7 +79,60 @@ the value of ```parameters[1]``` = ```"My%20name%20is%20Rebecca"``` ;
 The other method being called is **main** in StringServer class, taking in a String array ```args[]```, with the argument of port number. In this case, localhost 4000. 
 The values of the URL, ```String s``` and ```String[] parameters``` are different from output 1, since it is a different command asking to add a completely different string to the display. 
 
-## Part 2
+## Part 2 
+### Failure inducing input: 
+```java
+import static org.junit.Assert.*;
+import org.junit.*;
+public class ArrayTests {
+@Test 
+  public void testReversed2(){
+    int[] input1 = {2,3,4}; 
+    assertArrayEquals(new int[]{4,3,2}, ArrayExamples.reversed(input1));
+  }
+}
+```
+
+### Input that doesn't induce a failure: 
+```java
+ @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
+### Symtom shown in output: 
+<img width="1149" alt="Screenshot 2023-04-19 at 19 22 54" src="https://user-images.githubusercontent.com/108894739/233241334-bf49a10d-92a5-4bf6-9699-92a56f647b42.png">
+
+### Buggy code: 
+```java
+public class ArrayExamples{
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+}
+```
+Fixed code: 
+```java
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    return newArray;
+  }
+```
+Now the test runs perfectly. 
+<img width="1145" alt="Screenshot 2023-04-19 at 19 26 00" src="https://user-images.githubusercontent.com/108894739/233241741-083159d9-cbc0-4b03-b874-4cefe9a8222e.png">
+
+###Explanation
+The above code is buggt in several ways, including: 
++ The method was returning the original array ```arr``` , instead of the supposed ```newArray``` created inside the method. 
++ The method was modifying the original array ```arr[i]``` in the for loop, instead of the (correct) other way around, setting the new array's element values equal to the existing one! 
 
 ## Part 3 
 
