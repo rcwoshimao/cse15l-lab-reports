@@ -1,9 +1,9 @@
 # CSE 15L lab report 2 (Week 3)
 
 ## Contents 
-* [Step 1: Using terminal within VS Code](#step-1-using-terminal-within-vs-code)
-* [Step 2: Remote access your account](#step-2-Remote-access-your-account)
-* [Step 3: Try some commands!](#step-3-Try-Some-Commands)
+* [Step 1: Using terminal within VS Code](#part-1)
+* [Step 2: Remote access your account](#part-2)
+* [Step 3: Try some commands!](#part-3)
 
 
 ## Part 1
@@ -45,6 +45,20 @@ class StringServer {
     }
 }
 ```
+
+![<img width="783" alt="Screenshot 2023-04-19 at 18 46 06" src="https://user-images.githubusercontent.com/108894739/233237033-e3fb4a12-a3e4-46f9-a03f-aef5828dd995.png">](image.png)
+
+![<img width="674" alt="Screenshot 2023-04-19 at 18 46 49" src="https://user-images.githubusercontent.com/108894739/233237124-886f0319-549e-4cf9-a0d9-5600e2e0970c.png">](image.png)
+
+![](image.png)
+
+Methods called: 
+Arguments of methods & value of fields: 
+Change of values of the fields. 
+
+
+
+we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
 
 ## Part 2
 
