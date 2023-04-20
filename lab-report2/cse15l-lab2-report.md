@@ -52,9 +52,11 @@ Here are some sample outputs. For each output, the detailed explanations are wri
 
 In this example, the **methods** being called includes the **handleRequest** in Handler class, taking in an URI ```http://localhost:4000/add-message?s=Lorem%20ipsum%20dolor%20sit%20amet```. 
 
-At this time, the value of ```String s``` =  ```hi\n George``` , since we already have some prexisting inputs when testing; 
-              the value of ```String[] parameters``` = ``` {"http://localhost:4000/add-message?s", "Lorem%20ipsum%20dolor%20sit%20amet"}``` ; 
-              the value of ```parameters[1]``` = ```"Lorem%20ipsum%20dolor%20sit%20amet"``` ;
+At this time,
+the value of ```String s``` =  ```hi\n George``` , since we already have some prexisting inputs when testing; 
+the value of ```String[] parameters``` = ``` {"http://localhost:4000/add-message?s", "Lorem%20ipsum%20dolor%20sit%20amet"}``` ; 
+the value of ```parameters[1]``` = ```"Lorem%20ipsum%20dolor%20sit%20amet"``` ;
+
 The other method being called is **main** in StringServer class, taking in a String array ```args[]```, with the argument of port number. In this case, localhost 4000. 
 
 <img width="991" alt="Screenshot 2023-04-19 at 19 03 30" src="https://user-images.githubusercontent.com/108894739/233238899-9772256e-ad74-4f69-ace5-41a0f7a55ab4.png">
