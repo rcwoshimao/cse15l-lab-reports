@@ -46,10 +46,8 @@ class StringServer {
 }
 ```
 
-![<img width="783" alt="Screenshot 2023-04-19 at 18 46 06" src="https://user-images.githubusercontent.com/108894739/233237033-e3fb4a12-a3e4-46f9-a03f-aef5828dd995.png">](image.png)
-
-![<img width="674" alt="Screenshot 2023-04-19 at 18 46 49" src="https://user-images.githubusercontent.com/108894739/233237124-886f0319-549e-4cf9-a0d9-5600e2e0970c.png">](image.png)
-
+<img width="783" alt="Screenshot 2023-04-19 at 18 46 06" src="https://user-images.githubusercontent.com/108894739/233237033-e3fb4a12-a3e4-46f9-a03f-aef5828dd995.png">
+<img width="674" alt="Screenshot 2023-04-19 at 18 46 49" src="https://user-images.githubusercontent.com/108894739/233237124-886f0319-549e-4cf9-a0d9-5600e2e0970c.png">
 ![](image.png)
 
 Methods called: 
