@@ -94,7 +94,7 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media %  grep -v -e 'statistics' -
    13188
 ```
 
-### Option 4:  ```grep -A <N> "string" FILENAME``` or  ```grep -B <N> "string" FILENAME``` Display N lines after and before match. 
+### Option 4:  ```grep -A``` or  ```grep -B``` Display N lines after and before match. 
 
 Example 1
 ```console
