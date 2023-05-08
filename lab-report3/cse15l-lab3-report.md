@@ -2,7 +2,7 @@
 
 ## Researching Commands - Grep 
 
-In my research Command lab, I will focus on four options of the grep-command. 
+In my research Command lab, I will focus on the options of the **grep-command**. 
 First, we have our git repository cloned onto my desktop. 
 ```console
 rebeccachen@shijieshangzuishuaiderendeMacbook desktop % git clone https://github.com/ucsd-cse15l-s23/stringsearch-data
@@ -21,7 +21,7 @@ We are now in the technical folder. Now lets see what options grep has by using 
 
 Some very interesting examples are given by the console. After careful examination, I decide to test on a **combination** of several of the commands given. Pressed ```q``` to return to technical. 
 
-### Option 1: find all occurrences of a pattern but ignoring cases. 
+### Option 1: ```grep -c -i```, Find all occurrences of a pattern but ignoring cases. 
 
 Example 1: We will use the file ```Advocate_for_Poor.txt``` in technical/government/Media to test out this command. 
 ```console 
@@ -31,6 +31,7 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -c -i 'this' Advocate
 2
 ```
 Indeed the number of word count changed.
+
 Example 2: 
 ```console 
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -c 'poor' Advocate_for_Poor.txt 
@@ -38,8 +39,11 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -c 'poor' Advocate_fo
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -c -i 'poor' Advocate_for_Poor.txt 
 3
 ```
+
 ### Option 2: ```grep -w```, find all occurrences of a pattern, but only complete words. This can help eliminate cases such as "before" being counted as "for". 
+
 This time I decided to try this on all the documents in Media. 
+
 Example 1: 
 ```console 
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -w 'of' *.txt 
@@ -67,6 +71,7 @@ AP_LawSchoolDebts.txt:difficulties. Most blamed the combination of low starting 
 A_Perk_of_Age.txt:A Perk of Age: Free Legal Advice
 ...
 ```
+
 There are too many lines being printed, it's too hard to see a pattern! So instead I asked wc to count the line of the output, so we know how many outputs our grep command actuall gave. 
 ```console 
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -w 'of' *.txt | wc -l 
@@ -74,6 +79,7 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -w 'of' *.txt | wc -l
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep 'of' *.txt | wc -l
     3101
 ```
+
 Example 2 
 ```console 
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep 'come' *.txt | wc -l
@@ -105,6 +111,7 @@ Legal-aid_chief.txt:group's $3.9 million budget this year. The rest will come fr
 Legal_Aid_in_Clay_County.txt:about 75 percent of the women who come to her agency in search of
 ...
 ```
+
 ### Option 3 ```grep -v``` Find all lines in a file which do not contain certain words. I will use the ```-e``` commmand along with this one, just to pump things up for fun. 
 
 Example 1 
@@ -114,6 +121,7 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -v -e 'this' -e 'that
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -v *.txt | wc -l
    13134
 ```
+
 Example 2
 ```console 
 rebeccachen@shijieshangzuishuaiderendeMacbook Media %  grep -v -e 'government' -e 'biome' *.txt |wc -l
@@ -123,6 +131,7 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media %  grep -v -e 'statistics' -
 ```
 
 ### Option 4:  ```grep -A <N> "string" FILENAME``` or  ```grep -B <N> "string" FILENAME``` Display N lines after and before match. 
+
 Example 1
 ```console
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -A 5 "say " Advocate_for_Poor.txt
