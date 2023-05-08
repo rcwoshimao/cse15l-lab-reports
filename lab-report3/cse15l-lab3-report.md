@@ -68,7 +68,8 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep 'come' *.txt | wc -l
      266
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -w 'come' *.txt | wc -l
       48
-rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -w 'come' *.txt #check contents this time to see if complete words are outputs:         
+rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -w 'come' *.txt 
+#check contents this time to see if complete words are outputs:         
 Aid_Gets_7_Million.txt:Both grants come from the Legal Services., a private, nonprofit
 Assuring_Underprivileged.txt:"A lot of my clients really feel that they're not afraid to come
 Avoids_Budget_Cut.txt:"I had a client come in off the street one day and she said,
