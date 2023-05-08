@@ -19,24 +19,9 @@ rebeccachen@shijieshangzuishuaiderendeMacbook technical %
 We are now in the technical folder. Now lets see what options grep has by using ```man grep```. 
 <img width="1437" alt="Screenshot 2023-05-07 at 19 37 41" src="https://user-images.githubusercontent.com/108894739/236721590-62eeb1f7-0481-4d22-b75d-f2172816a1f7.png">
 
-Some very interesting examples are given by the console. After careful examination, I decide to test on a ** combination ** of the four options below: 
+Some very interesting examples are given by the console. After careful examination, I decide to test on a **combination** of several of the commands given. Pressed ```q``` to return to technical. 
 
-```console
-      -c, --count
-             Only a count of selected lines is written to standard output.
-      -L, --files-without-match
-             Only the names of files not containing selected lines are written to standard output.  Pathnames are listed once
-             per file searched.  If the standard input is searched, the string “(standard input)” is written unless a --label is
-             specified.
-      -v, --invert-match
-             Selected lines are those not matching any of the specified patterns.
-      -e pattern, --regexp=pattern
-             Specify a pattern used during the search of the input: an input line is selected if it matches any of the specified
-             patterns.  This option is most useful when multiple -e options are used to specify multiple patterns, or when a
-             pattern begins with a dash (‘-’)
-```
-Now we test out the options. Pressed ```q``` to return to technical. 
-Option 1: find all occurrences of a pattern but ignoring cases. 
+### Option 1: find all occurrences of a pattern but ignoring cases. 
 
 Example 1: We will use the file ```Advocate_for_Poor.txt``` in technical/government/Media to test out this command. 
 ```console 
@@ -53,7 +38,7 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -c 'poor' Advocate_fo
 rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -c -i 'poor' Advocate_for_Poor.txt 
 3
 ```
-Option 2: ```grep -w```, find all occurrences of a pattern, but only complete words. This can help eliminate cases such as "before" being counted as "for". 
+### Option 2: ```grep -w```, find all occurrences of a pattern, but only complete words. This can help eliminate cases such as "before" being counted as "for". 
 This time I decided to try this on all the documents in Media. 
 Example 1: 
 ```console 
@@ -120,7 +105,7 @@ Legal-aid_chief.txt:group's $3.9 million budget this year. The rest will come fr
 Legal_Aid_in_Clay_County.txt:about 75 percent of the women who come to her agency in search of
 ...
 ```
-Option 3 ```grep -v``` Find all lines in a file which do not contain certain words. I will use the ```-e``` commmand along with this one, just to pump things up for fun. 
+### Option 3 ```grep -v``` Find all lines in a file which do not contain certain words. I will use the ```-e``` commmand along with this one, just to pump things up for fun. 
 
 Example 1 
 ```console 
@@ -137,11 +122,25 @@ rebeccachen@shijieshangzuishuaiderendeMacbook Media %  grep -v -e 'statistics' -
    13188
 ```
 
-Option 4: 
-Example 1 
+### Option 4:  ```grep -A <N> "string" FILENAME``` or  ```grep -B <N> "string" FILENAME``` Display N lines after and before match. 
+Example 1
+```console
+rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -A 5 "say " Advocate_for_Poor.txt
+property. He did not say how much he was paying, but he said the
+units are rent-controlled. That makes getting fair market value for
+the commercial space a must. That could amount to several times as
+much as the $250 a month Mazzariello currently pays the Housing
+Preservation and Development Department.
+"I embrace the kind of business he is running," Montalvo said.
+```
 Example 2 
-Source: 
+```console 
+rebeccachen@shijieshangzuishuaiderendeMacbook Media % grep -B 5 "spokeswoman" Advocate_for_Poor.txt
 
-
- “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about commands; you can use man grep, for example, to see a long listing of information about how grep works. Also consider asking ChatGPT!
-
+Another Bidder
+Then, last week, Mazzariello got bad news from the department. A
+tenant in the building had put in an application to buy it first.
+Program guidelines give tenants priority over commercial users.
+Department spokeswoman Carol Abrams said homeownership comes
+rebeccachen@shijieshangzuishuaiderendeMacbook Media % 
+```
