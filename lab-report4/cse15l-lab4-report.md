@@ -1,6 +1,6 @@
 # CSE 15L Lab report 4 (Week 7)
 ## Task steps 
-After setting up SSH and github: 
+## After setting up SSH and github: 
 1.  Log into ieng6
 ```ssh [cs15lsp23ae@ieng6.ucsd.edu](mailto:cs15lsp23ae@ieng6.ucsd.edu) <enter> (password) <enter>```
 <img width="998" alt="1" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/7c2f2a23-6e96-4ef8-866b-d230a31e9893">
