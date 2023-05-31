@@ -9,11 +9,14 @@ Post content: <br>
 Environment: Macbook Pro M1, 2020; Mac OS; Chrome; VS Code. 
 
 Context: Hello! I am trying to run the DocSearchServer on my terminal, but my code gives me an index out of bound error. I am passing in the correct port number,
-and my file seems to compile correctly too. Can someone help me out with this?
+and my file seems to compile correctly too. Can someone help me out with this? <br>
 <img width="1440" alt="Screenshot 2023-05-31 at 16 35 28" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/f41f952f-2444-4f08-9f68-0967b44c8c61">
 <br>
 Symptom: Expected: Seeing a notif about server started on port 3000; Actual: Instead saw the screenshot above. 
-Failure-inducing input: 
+<br>
+Failure-inducing input: the input given in the above screenshot! 
+```console 
+```
 
 
 <br>
