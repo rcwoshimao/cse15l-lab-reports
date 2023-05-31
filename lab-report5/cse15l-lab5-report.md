@@ -1,7 +1,7 @@
 # CSE 15L Lab Report 5 (Week 9)
 ## Part 1: Debugging Scenario 
 ### Original Post
-Title: Initialization error when trying to run ArrayTests for lab 3
+#### Title: Initialization error when trying to run ArrayTests for lab 3
 Post content: 
 Hello! As seen in screenshot below, I was trying to run the tests for my ArrayeExamples, but the code keeps on giving me an initialization error. I double checked and the path to the files and junit test look fine, and I also have my lib file. I checked my code and all my code look fine too. I suspect the error is in the way I ran the commands. are there any fixes to this? <br>
 Screenshot: 
