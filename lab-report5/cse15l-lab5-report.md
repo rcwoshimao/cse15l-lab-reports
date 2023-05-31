@@ -2,16 +2,29 @@
 ## Part 1: Debugging Scenario 
 ### Original Post
 
-#### Title: Initialization error when trying to run ArrayTests for lab 3
+#### Title: Unable to run DocSearchServer
 
 Post content: <br>
-Hello! As seen in screenshot below, I was trying to run the tests for my ArrayExamples for the repository given in lab 3, but the code keeps on giving me an initialization error. I double checked and the path to the files and junit test look fine, and I also have my lib file. I checked my code and all my code look fine too. I suspect the error is in the way I ran the commands. are there any fixes to this? <br>
 
-Screenshot: 
-<img width="1440" alt="Screenshot 2023-05-31 at 16 04 37" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/18777391-209d-48f6-ba21-8a802115498c">
+Environment: Macbook Pro M1, 2020; Mac OS; Chrome; VS Code. 
+
+Context: Hello! I am trying to run the DocSearchServer on my terminal, but my code gives me an index out of bound error. I am passing in the correct port number,
+and my file seems to compile correctly too. Can someone help me out with this?
+<img width="1440" alt="Screenshot 2023-05-31 at 16 35 28" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/f41f952f-2444-4f08-9f68-0967b44c8c61">
+<br>
+Symptom: Expected: Seeing a notif about server started on port 3000; Actual: Instead saw the screenshot above. 
+Failure-inducing input: 
+
+
+<br>
 
 ### response with leading question: 
 TA: 
+Hi Rebecca! You have correctly compiled the files I see, and you gave a valid port number indeed. However, I encourage you to look over the 
+DocSearchServer Class and make sure you are giving it everything the server requires you to have. 
+
+
+
 ### All the infor needed about the set up
 - File Structure needed: [**This repository**](https://github.com/ucsd-cse15l-w23/lab3) from lab 3 
 - Contents of each file before fixing the bug: 
