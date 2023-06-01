@@ -43,8 +43,7 @@ Thank you so much for your help! After carefully inspecting the code, I realized
     - README.md
     - Server.java
     - TestDocSearch.java
-    - docsearch.sh
-<br>
+    - docsearch.sh\
 Content of docsearch.sh:
 ```console
 javac DocSearchServer.java Server.java 
