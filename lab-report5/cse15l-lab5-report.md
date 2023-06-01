@@ -1,13 +1,8 @@
 # CSE 15L Lab Report 5 (Week 9)
 ## Part 1: Debugging Scenario 
-### Original Post
-
-#### Title: Unable to run DocSearchServer
-
+## Unable to run DocSearchServer
 Post content: <br>
-
-Environment: Macbook Pro M1, 2020; Mac OS; Chrome; VS Code. 
-
+Environment: Macbook Pro M1, 2020; Mac OS; Chrome; VS Code. \
 Context: Hello! I am trying to run the DocSearchServer with my bash script, but my code gives me an index out of bound error. I am passing in the correct port number,
 and my file seems to compile correctly too. **My guess** is that I am running the server with the wrong command. Can someone help me out with this? <br>
 <img width="760" alt="Screenshot 2023-05-31 at 19 30 45" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/89771c8c-88ef-4645-88b7-64650ba521cf">
@@ -20,7 +15,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out
 
 **Failure-inducing input**: the input given in the above screenshot! `java DocSearchServer 3000`. 
 
-### Response with leading question: 
+## Response with leading question
 TA: 
 Hi Rebecca! You have correctly compiled the files, and you gave a valid port number indeed. However, I encourage you to look over the 
 DocSearchServer Class and make sure you are giving it everything the server requires you to have. (Hint: think about how many arguments you'd need to run this server correctly?)
