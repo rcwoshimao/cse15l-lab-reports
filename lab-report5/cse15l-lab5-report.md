@@ -13,10 +13,13 @@ and my file seems to compile correctly too. Can someone help me out with this? <
 <img width="1440" alt="Screenshot 2023-05-31 at 16 35 28" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/f41f952f-2444-4f08-9f68-0967b44c8c61">
 <br>
 Symptom: Expected: Seeing a notif about server started on port 3000; Actual: Instead saw the screenshot above. 
-<br>
-Failure-inducing input: the input given in the above screenshot! 
-```console 
+```console
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+        at DocSearchServer.main(DocSearchServer.java:75)
 ```
+<br>
+Failure-inducing input: the input given in the above screenshot! Also below: 
+```console java DocSearchServer 3000 ```
 
 
 <br>
