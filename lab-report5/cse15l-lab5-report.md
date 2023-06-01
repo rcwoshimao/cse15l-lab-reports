@@ -19,12 +19,13 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out
 ```
 <br>
 **Failure-inducing input**: the input given in the above screenshot! Also below: 
+
 <br>
 ```console
+
 #failure inducing line below: 
 java DocSearchServer 3000
 ```
-
 <br>
 
 ### Response with leading question: 
