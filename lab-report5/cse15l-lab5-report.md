@@ -57,16 +57,8 @@ rebeccachen@shijieshangzuishuaiderendeMacbook docsearch-main % java DocSearchSer
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
         at DocSearchServer.main(DocSearchServer.java:75)
 ```
-- What to edit to fix the bug: To fix the bug, add a second parameter to the command line used to run the server, to indicate which file to access.   
-From  
-```console 
-java DocSearchServer 3000
-```
-To  
-```console 
-java DocSearchServer 3000 technical/plos
-```
+- What to edit to fix the bug: To fix the bug, add a second parameter to the command line used to run the server, to indicate which file to access. From ```java DocSearchServer 3000``` To ```console java DocSearchServer 3000 technical/plos```
 
 ## Part 2: Reflection
-In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
+Something really cool I've learned with the second quarter of this class is the use of vim. I have been exploring it since I got to know about it from lecture, and I have been trying to get myself familiar with the commands. It is all so fun and convinient. 
 
