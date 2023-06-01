@@ -7,15 +7,15 @@ and the process is done.
 <img width="887" alt="Screenshot 2023-06-01 at 15 02 18" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/09b9312c-cb13-4de8-a90e-cf621ec88174">
 
 
-2.  Clone your fork of the repository from your Github account (with SSH): 
+2.  Clone your fork of the repository from your Github account (with SSH)\
 ```git clone git@github.com:rcwoshimao/lab7 <enter>```
 <img width="1189" alt="2" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/26425150-63ea-4604-b9bd-993b57f5ae50">
 
-3.  Run the tests, demonstrating that they fail
+3.  Run the tests, demonstrating that they fail: \
 Since we already have a test file `test.sh`, lets run it with bash:
  <img width="788" alt="Screenshot 2023-06-01 at 15 04 02" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/a4ef3644-acce-4dd9-adb0-a0b05f3d2c2b">
 
-4.  Edit the code file to fix the failing test
+4.  Edit the code file to fix the failing test \
 Now lets use vim to edit the files! 
 Start up vim: 
 ```vim List <tab> .java <enter>```  
