@@ -27,7 +27,7 @@ DocSearchServer Class and make sure you are giving it everything the server requ
 
 ### Student Upate: 
 Thank you so much for your help! After carefully inspecting the code, I realized I need another **file path** parameter for the line `Server.start(port, new Handler(args[1]));`. I chosed the path `technical/plos`, and my server started as intended. My search query works as intended too. 
-<img width="912" alt="Screenshot 2023-05-31 at 19 13 31" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/fd309ef5-2d9f-4009-8f9e-e79b9096262a">
+<img width="762" alt="Screenshot 2023-05-31 at 19 31 52" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/50d00e22-46f2-41fd-b9d3-3d3a2f81b83b">
 <br>
 <img width="664" alt="Screenshot 2023-05-31 at 19 11 59" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/95548c22-1679-4b27-bfc3-7bf9fb879bb1">
 <br>
