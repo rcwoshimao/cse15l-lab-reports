@@ -34,7 +34,7 @@ Thank you so much for your help! After carefully inspecting the code, I realized
 <img width="738" alt="Screenshot 2023-05-31 at 19 12 08" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/d7b74dfc-1ce0-42ce-8500-f213701236f8">
 <br>
 
-### All the infor needed about the set up
+### All the info needed about the set up
 - File Structure needed: This [DocSearch repository](https://github.com/rcwoshimao/docsearch). 
 - Contents of each file before fixing the bug:  
     - lib/
@@ -43,6 +43,12 @@ Thank you so much for your help! After carefully inspecting the code, I realized
     - README.md
     - Server.java
     - TestDocSearch.java
+    - docsearch.sh
+Content of docsearch.sh:
+```console
+javac DocSearchServer.java Server.java 
+java DocSearchServer 3000 technical/plos
+```
 - Command that triggers the bug: 
 ```console
 rebeccachen@shijieshangzuishuaiderendeMacbook ~ % cd desktop/docsearch-main 
