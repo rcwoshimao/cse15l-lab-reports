@@ -54,9 +54,10 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out
 - What to edit to fix the bug: To fix the bug, add a second parameter to the command line used to run the server, to indicate which file to access. 
 From 
 <br> 
-```java DocSearchServer 3000```
+`java DocSearchServer 3000`
 To 
 <br>
-```java DocSearchServer 3000 technical/plos```
+`java DocSearchServer 3000 technical/plos`
 
 ## Part 2: Reflection
+
