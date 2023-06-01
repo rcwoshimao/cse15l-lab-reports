@@ -19,10 +19,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out
 ```
 <br>
 Failure-inducing input: the input given in the above screenshot! Also below: 
-```console
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-        at DocSearchServer.main(DocSearchServer.java:75)
-```
+<br>
 
 ```console
 #failure inducing line below: 
