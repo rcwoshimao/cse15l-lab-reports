@@ -44,6 +44,7 @@ Thank you so much for your help! After carefully inspecting the code, I realized
     - Server.java
     - TestDocSearch.java
     - docsearch.sh
+<br>
 Content of docsearch.sh:
 ```console
 javac DocSearchServer.java Server.java 
