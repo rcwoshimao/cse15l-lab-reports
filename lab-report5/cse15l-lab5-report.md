@@ -18,7 +18,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out
         at DocSearchServer.main(DocSearchServer.java:75)
 ```
 <br>
-**Failure-inducing input**: the input given in the above screenshot! ```console java DocSearchServer 3000```
+**Failure-inducing input**: the input given in the above screenshot! `java DocSearchServer 3000`
 <br>
 
 ### Response with leading question: 
