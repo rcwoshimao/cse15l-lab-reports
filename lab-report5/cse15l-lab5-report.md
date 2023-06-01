@@ -8,9 +8,9 @@ Post content: <br>
 
 Environment: Macbook Pro M1, 2020; Mac OS; Chrome; VS Code. 
 
-Context: Hello! I am trying to run the DocSearchServer on my terminal, but my code gives me an index out of bound error. I am passing in the correct port number,
+Context: Hello! I am trying to run the DocSearchServer with my bash script, but my code gives me an index out of bound error. I am passing in the correct port number,
 and my file seems to compile correctly too. **My guess** is that I am running the server with the wrong command. Can someone help me out with this? <br>
-<img width="1440" alt="Screenshot 2023-05-31 at 16 35 28" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/f41f952f-2444-4f08-9f68-0967b44c8c61">
+<img width="760" alt="Screenshot 2023-05-31 at 19 30 45" src="https://github.com/rcwoshimao/cse15l-lab-reports/assets/108894739/89771c8c-88ef-4645-88b7-64650ba521cf">
 <br>
 **Symptom**: Expected: Seeing a notif about server started on port 3000; Actual: Instead saw the screenshot above. 
 ```console
@@ -60,4 +60,5 @@ To
 `java DocSearchServer 3000 technical/plos`
 
 ## Part 2: Reflection
+In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
 
