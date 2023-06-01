@@ -57,12 +57,12 @@ rebeccachen@shijieshangzuishuaiderendeMacbook docsearch-main % java DocSearchSer
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
         at DocSearchServer.main(DocSearchServer.java:75)
 ```
-- What to edit to fix the bug: To fix the bug, add a second parameter to the command line used to run the server, to indicate which file to access.\ 
-From\
+- What to edit to fix the bug: To fix the bug, add a second parameter to the command line used to run the server, to indicate which file to access.   
+From  
 ```console 
 java DocSearchServer 3000
 ```
-To\
+To  
 ```console 
 java DocSearchServer 3000 technical/plos
 ```
