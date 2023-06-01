@@ -18,7 +18,7 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out
         at DocSearchServer.main(DocSearchServer.java:75)
 ```
 <br>
-**Failure-inducing input**: the input given in the above screenshot! `java DocSearchServer 3000`
+**Failure-inducing input**: the input given in the above screenshot! `java DocSearchServer 3000`. 
 <br>
 
 ### Response with leading question: 
@@ -36,12 +36,12 @@ Thank you so much for your help! After carefully inspecting the code, I realized
 ### All the infor needed about the set up
 - File Structure needed: This [DocSearch repository](https://github.com/rcwoshimao/docsearch). 
 - Contents of each file before fixing the bug:  
-        - lib/
-        - technical/
-        - DocSearchServer.java
-        - README.md
-        - Server.java
-        - TestDocSearch.java
+    - lib/
+    - technical/
+    - DocSearchServer.java
+    - README.md
+    - Server.java
+    - TestDocSearch.java
 - Command that triggers the bug: 
 ```console
 rebeccachen@shijieshangzuishuaiderendeMacbook ~ % cd desktop/docsearch-main 
